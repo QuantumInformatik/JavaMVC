@@ -7,8 +7,11 @@ import co.edu.udea.edatos.modelo.Empleado;
 public class EmpleadoBsn {
     private EmpleadoDAO empleadoDAO;
     public EmpleadoBsn(){
+
         empleadoDAO=new EmpleadoDAOList();
     }
+
+
     public void guardarEmpleado(Empleado empleado){
         //TODO validar reglas de negocio
         //TODO logica de cass de uso

@@ -11,8 +11,9 @@ public class EmpleadoDAOList implements EmpleadoDAO {
 
     @Override
     public void guardarEmpleado(Empleado empleado) {
-        System.out.println("DAO LIST");
         empleadoBD.add(empleado);
+        System.out.println("Empleado guardado en DAO "+empleado.toString());
+
 
     }
 
